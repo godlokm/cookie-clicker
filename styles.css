@@ -1,0 +1,103 @@
+/* Style for the dropdown menu button */
+#dropdown-menu-container {
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    z-index: 1000;
+}
+
+#dropdown-menu-button {
+    padding: 10px;
+    font-size: 1.2em;
+    cursor: pointer;
+    background-color: #f1c40f;
+    border: none;
+    border-radius: 5px;
+}
+
+/* Dropdown menu styling */
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    top: 40px; /* Position below the button */
+    left: 0;
+    background-color: #ffffff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 10px;
+    width: 200px;
+    z-index: 1001;
+}
+
+.dropdown-menu button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    text-align: left;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.dropdown-menu button:hover {
+    background-color: #f0f0f0;
+}
+
+/* Cookie image styling */
+#cookie {
+    position: absolute;
+    left: 50%; /* Center horizontally */
+    top: 50%; /* Center vertically */
+    transform: translate(-50%, -50%);
+    width: 200px;
+    height: 200px;
+    cursor: pointer;
+    margin: 20px;
+    display: block;
+}
+
+.cookie-image {
+    width: 200px;
+    height: auto;
+    cursor: pointer;
+    margin: 20px auto;
+    display: block;
+}
+
+/* Game container styling */
+#game-container {
+    text-align: center;
+    margin-top: 50px;
+}
+
+#cookie-count, #cookies-per-click {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+/* Username popup styling */
+#username-popup {
+    display: none; /* Initially hidden */
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 5px;
+    z-index: 1001;
+}
+
+/* Dropdown menu (upgrades) styling */
+#dropdown-menu {
+    position: absolute;
+    left: 20px; /* Adjust as needed */
+    top: 60px; /* Adjust as needed */
+    background-color: white;
+    border: 1px solid #ccc;
+    padding: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    z-index: 10;
+}
